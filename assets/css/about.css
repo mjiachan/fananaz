@@ -1,0 +1,94 @@
+body {
+	margin: 0px;
+}
+
+#tri {
+	width: 15%;
+	cursor: pointer;
+
+}
+
+#home {
+	margin-left: -10px;
+	margin-top:-10px;
+}
+
+#wwraper {
+	position: relative;
+	top:-30px
+}
+
+#words {
+	font-family: "Bangers", "cursive";
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	letter-spacing: 4px;
+}
+
+#lines {
+	display: flex;
+}
+
+#l1 {
+	position: absolute;
+	left:15%;
+	top: 13%;
+}
+
+#l2 {
+	position: absolute;
+	right: 15%;
+	top:13%;
+}
+
+#pic_container {
+	display:flex;
+	align-items: flex-start;
+	align-items:center;
+
+}
+
+#hex {
+	position: absolute;
+	top: 130px;
+	left: 100px;
+}
+
+#me {
+	align-content: center;
+	
+}
+
+
+#text_container {
+	width:50%;
+	height: 80%;
+	position: absolute;
+	right: -30px;
+}
+
+#square_container {
+	width: 100%;
+	height: auto;
+}
+
+#sq {
+	position: absolute;
+	margin-right: 150px;
+	top: 100px;
+}
+
+
+
+
+#text {
+	z-index: 10;
+	font-family: "Oswald", "sans-serif";
+	font-size: 18px;
+	position: relative;
+	right: 40px;
+	top: 50px;
+
+	text-align: justify;
+}

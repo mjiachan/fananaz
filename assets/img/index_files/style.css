@@ -1,0 +1,115 @@
+
+#top {
+	font-family: 'Bangers', cursive;
+	font-size: 60px;
+
+	position: absolute;
+	width: 100%;
+	top: 5%;
+
+	text-align:center;
+
+}
+#about {
+	width: 5%;
+	height: 1%;
+	padding:15px;
+	z-index: 1;
+	position: absolute;
+	/*top: 8%;
+	left: -22%; */
+	top:45%;
+	left: 5%;
+
+	background-color: #EFE9BF;
+	box-shadow: -7px 7px 5px black;
+
+	transform:rotate(270deg);
+	
+}
+
+#contact {
+	width: 5%;
+	height: 1%;
+	padding:15px;
+	z-index: 3;
+	position: absolute;
+	/*top: 8%;
+	left: -22%; */
+	top:45%;
+	right:5%;
+
+	background-color: #EFE9BF;
+	box-shadow: 7px 7px 5px black;
+
+	transform:rotate(90deg);
+
+
+}
+
+.text {
+	font-family: 'Bellefair', serif;
+	font-size: 28px;
+	font-stretch: extra-condensed;
+
+	position: relative;
+	top: -200%;
+}
+
+#a {
+	top: -200%;
+}
+
+#c {
+	position: relative;
+	
+
+}
+
+#triangle1 {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	margin: 0px;
+}
+
+#triangle2 {
+	position: absolute;
+	right: 0%;
+	bottom:0%;
+}
+
+#banana_container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+
+	height: 100%;
+	width: 100%;
+
+	justify-content: center;
+
+	margin-top: 13%;
+
+}
+
+#longrect {
+	position: absolute;
+	left: 13%;
+	bottom:15%;
+
+}
+
+.banana {
+	margin-top: 50%;
+	margin: 25px;
+
+	z-index: 1;
+
+	box-shadow: 7px 7px 5px black;
+
+	
+
+}
+
+
