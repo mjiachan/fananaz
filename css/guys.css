@@ -1,0 +1,235 @@
+body {
+	margin: 0px;
+}
+
+#home {
+	position: fixed;
+	margin-left: -8px;
+	margin-top: -8px;
+	cursor:pointer;
+
+
+}
+#top_bar {
+	position: relative;
+	width: 50%;
+	height: 100px;
+}
+
+#cf {
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	left: 18%;
+
+	font-family: 'Bangers', cursive;
+	width: 100%;
+	font-size: 40px;
+
+
+	letter-spacing: 4px; 
+
+}
+
+#hl {
+	fill: #EFE9BF;
+	transform: scale(0.9);
+	position: absolute;
+
+	top: 115%;
+	left: 22%;
+
+} 
+/*#tt_highlight {
+	position: absolute;
+	top: 100%;
+} */
+
+
+#selectors {
+	position: relative;
+	margin-top: 40px;
+}
+
+.menu-item {
+	cursor: pointer;
+	width: 6%;
+	font-size: 16px;
+	font-family: "Oswald", "sans-serif";
+	display: inline-block;
+	border: 2px solid black;
+	margin: 10px;
+	border-radius:50px;
+
+
+
+}
+
+button:focus {outline:0;}
+
+/*button {
+	display: table-cell;
+	vertical-align: middle;
+	padding-bottom: 2px;
+
+	border-radius: 0px;
+	width: 6%;
+	height: 30px;
+	margin: 10px;
+
+	font-family: 'EB Garamond', serif;
+
+
+	font-size: 16px;
+	letter-spacing: 2px;
+    line-height: 40px;
+
+    border: 2px solid grey;
+    border-radius: 50px;
+    background: #FFFFFF;
+    color: black;
+
+
+} */
+
+#selectors {
+	
+
+	width: 100%;
+	top: 9%;
+
+	display: flex; 
+	position: absolute;
+	right: -70%;
+
+
+}
+.inactive {
+    border: 2px solid #2f353f;
+    
+
+    background: #2f353f;
+    color: white;
+}
+
+.inactive:hover {
+    opacity: 0.6;
+}
+
+
+
+
+
+.nav-item {
+    height: 2%;
+    width: 6%;
+    border-radius: 50px;
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 40px;
+    transition: 0.2s;
+    margin: 0px 0px;
+    letter-spacing: 2px;
+    transition: 0.2s all;
+    margin-right:10px;
+}
+
+
+.active {
+
+	border: 2px solid #2f353f;
+    
+    background: #FFFFFF;
+    color: black;
+}
+
+#content_container {
+	position: relative;
+	top: 100px;
+}
+
+
+#content {
+	z-index: 2000;
+	display: flex;
+	flex-direction: row;
+	margin: 30px;
+	position: relative;
+	
+	justify-content: center;
+
+}
+
+.cblock {
+	fill: black;
+	width: 100%;
+	height: 5%;
+	z-index: 11;
+}
+
+/*.object {
+	display: flex;
+} */
+
+
+
+
+
+.background {
+	position: relative;
+	z-index: 1;
+	bottom: 254px;
+	left: 30px;
+} 
+
+
+
+.caption {
+	opacity: 0;
+	position: relative;
+	z-index: 100;
+	bottom: 70px;	
+	left: 10%;
+	font-family: "Oswald", "sans-serif";
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+
+	width: 30%;
+
+}
+
+.pic { /* abstracting it to apply to everything makes it ignore the div lines??? */
+	position: relative;
+	margin: 30px;
+
+	width: 90%;
+	height: auto;
+
+}
+
+.pic:hover {
+	opacity: 0.5;
+} 
+
+.pic:hover + .caption {
+	opacity: 1;
+}
+
+@media (min-width: 800px) and (max-width: 1241px) {
+	.caption {
+		left: 40px;
+	}
+	
+}
+
+
+}
+
+
+
+
