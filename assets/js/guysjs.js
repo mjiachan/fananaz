@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
 
-	$(".menu-item").click(function() { // jQuery Function Number 1 used to be .menu-item
+	$(".menu-item").click(function() { // jQuery Function Number 1 
 
 		var btnName = $(this).text(); // jQuery Function Number 2
 		var btnActive = $(this).hasClass("active"); // jQuery Function Number 3
