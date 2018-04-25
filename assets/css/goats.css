@@ -1,0 +1,11 @@
+#homez {
+	z-index: 1000;
+	height: 100%;
+	position: absolute;
+
+}
+
+#goat {
+	position: absolute;
+	margin-top: -20px;
+}

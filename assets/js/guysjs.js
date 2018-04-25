@@ -3,13 +3,12 @@ $(document).ready(function() {
 
 
 
-	$(".menu-item").click(function() { // jQuery Function Number 1
+	$(".menu-item").click(function() { // jQuery Function Number 1 used to be .menu-item
 
-		console.log("hi");
 		var btnName = $(this).text(); // jQuery Function Number 2
-		let btnActive = $(this).hasClass("active"); // jQuery Function Number 3
+		var btnActive = $(this).hasClass("active"); // jQuery Function Number 3
 
-		let condition = !btnActive;
+		var condition = !btnActive;
 
 		
 		if (condition) {
@@ -17,13 +16,13 @@ $(document).ready(function() {
 			$(this).removeClass("inactive"); // jQuery Function Number 5
 
 			console.log("btnName", btnName);
-			$('.' + btnName).show(); // jQuery Function Number 6
+			$('.' + btnName).hide(); // jQuery Function Number 6
 
 		} else {
 			$(this).addClass("inactive");
 			$(this).removeClass("active");
 
-			$('.' + btnName).hide(); // jQuery Function Number 7
+			$('.' + btnName).show(); // jQuery Function Number 7
 		} 
 
 	})
@@ -109,9 +108,9 @@ $(document).ready(function() {
 
 
 	$(".pic").click(function() { // jQuery Function Number 8
-		let clickedName = $(this).attr("id"); // jQuery Function Number 9
+		var clickedName = $(this).attr("id"); // jQuery Function Number 9
 		console.log(clickedName);
-		let opacity = $("#" + clickedName).css("opacity"); // jQuery Function Number 10
+		var opacity = $("#" + clickedName).css("opacity"); // jQuery Function Number 10
 		console.log(opacity);
 		$("#" + clickedName).css("opacity", ".7");
 

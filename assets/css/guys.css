@@ -64,6 +64,9 @@ body {
 
 
 }
+
+button:focus {outline:0;}
+
 /*button {
 	display: table-cell;
 	vertical-align: middle;
@@ -103,12 +106,19 @@ body {
 }
 .inactive {
     border: 2px solid #2f353f;
-    color: #2f353f;
+    
+
+    background: #2f353f;
+    color: white;
 }
 
 .inactive:hover {
     opacity: 0.6;
 }
+
+
+
+
 
 .nav-item {
     height: 2%;
@@ -120,14 +130,17 @@ body {
     font-size: 18px;
     line-height: 40px;
     transition: 0.2s;
-    margin: 0px 5px;
+    margin: 0px 0px;
     letter-spacing: 2px;
     transition: 0.2s all;
+    margin-right:10px;
 }
+
 
 .active {
 
 	border: 2px solid #2f353f;
+    
     background: #FFFFFF;
     color: black;
 }
@@ -205,6 +218,13 @@ body {
 
 .pic:hover + .caption {
 	opacity: 1;
+}
+
+@media (min-width: 800px) and (max-width: 1241px) {
+	.caption {
+		left: 40px;
+	}
+	
 }
 
 

@@ -2,6 +2,8 @@ body {
 	margin: 0px;
 }
 
+
+
 #tri {
 	width: 15%;
 	cursor: pointer;
@@ -31,14 +33,16 @@ body {
 }
 
 #l1 {
+	width: 30%;
 	position: absolute;
-	left:15%;
+	left:13%;
 	top: 13%;
 }
 
 #l2 {
+	width: 30%;
 	position: absolute;
-	right: 15%;
+	right: 13%;
 	top:13%;
 }
 
@@ -51,12 +55,16 @@ body {
 
 #hex {
 	position: absolute;
-	top: 130px;
+	top: 25%;
 	left: 100px;
+	width: 50%;
+	height:auto;
 }
 
 #me {
 	align-content: center;
+	width: 80%;
+	height: auto;
 	
 }
 
@@ -92,3 +100,5 @@ body {
 
 	text-align: justify;
 }
+
+@media ()
